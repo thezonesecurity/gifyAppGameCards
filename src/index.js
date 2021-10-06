@@ -1,4 +1,5 @@
 import React from "react";
 import ReactDom from "react-dom";
-import { TodoComponent } from "./todo/TodoComponent";
-ReactDom.render(<TodoComponent />, document.getElementById("root"));
+import { GifComponent } from "./gitfphyApp/GifComponent";
+//import { TodoComponent } from "./todo/TodoComponent";
+ReactDom.render(<GifComponent />, document.getElementById("root"));
